@@ -105,8 +105,7 @@ class NavigationDataset(Dataset):
         - text: original text string
         - image_file: filename
         """
-        # Load annotation lazily
-        annotation = self._load_annotation(idx)
+        annotation = self.annotations[idx]
         
         # Load image
         image_path = os.path.join(self.images_dir, annotation['image_file'])

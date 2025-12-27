@@ -1,0 +1,42 @@
+{
+  "issues": [],
+  "warnings": [],
+  "stats": {
+    "expected_image_size": 128,
+    "declared_samples": 100,
+    "expected_path_points": 10,
+    "vocabulary_size": 9,
+    "vocabulary": [
+      "blue",
+      "circle",
+      "go",
+      "green",
+      "red",
+      "square",
+      "the",
+      "to",
+      "triangle"
+    ],
+    "word_frequency": {
+      "go": 100,
+      "to": 100,
+      "the": 100,
+      "green": 35,
+      "square": 35,
+      "blue": 26,
+      "triangle": 26,
+      "red": 39,
+      "circle": 39
+    },
+    "shape_distribution": {
+      "Square": 35,
+      "Triangle": 26,
+      "Circle": 39
+    },
+    "color_distribution": {
+      "Green": 35,
+      "Blue": 26,
+      "Red": 39
+    }
+  }
+}
