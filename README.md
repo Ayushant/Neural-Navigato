@@ -229,13 +229,7 @@ Evaluated on 100 unseen test images:
 - ✅ Handles edge cases (targets near borders) reasonably well
 - ⚠️ Occasionally overshoots when target is very close to starting point
 
-### Per-Class Breakdown:
-| Target | Samples | Avg Error (px) |
-|--------|---------|----------------|
-| Red Circle | 13 | 2.1 |
-| Blue Triangle | 9 | 2.5 |
-| Green Square | 11 | 2.4 |
-| Overall | 100 | 2.33 |
+
 
 The model performs consistently across all shape-color combinations, demonstrating effective multimodal learning.
 
